@@ -8,7 +8,7 @@ module.exports = {
         {user_name: "fabio asteca", email: "fabio@gmail.com", password: "12345", avatar: "hhtps:image"},
         {user_name: "nelson Vargas", email: "nelson@gmail.com", password: "12345", avatar: "hhtps:image"},
         {user_name: "Hamilton Arango", email: "hamilton@gmail.com", password: "12345", avatar: "hhtps:image"},
-        {user_name: "Antonio Seeders", email: "antonio@gmail.com", password: "12345", avatar: "hhtps:image"}
+        {user_name: "Antonio Seeders", email: "antonio@gmail.com", password: "12345", avatar: "hhtps:image"},
 
       ], 
       
