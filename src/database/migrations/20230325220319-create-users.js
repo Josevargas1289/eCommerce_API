@@ -28,15 +28,8 @@ module.exports = {
       avatar: {
         type: Sequelize.STRING(200),
         allowNull: false
-      },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
       }
+     
     });
   },
   async down(queryInterface, Sequelize) {
