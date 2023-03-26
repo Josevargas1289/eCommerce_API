@@ -1,7 +1,6 @@
 'use strict';
 
 
-
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
@@ -14,7 +13,8 @@ module.exports = {
       },
       user_name: {
         type: Sequelize.STRING(30),
-        allowNull: false
+        allowNull:false
+    
       },
       email: {
         type: Sequelize.STRING(100),
@@ -23,7 +23,7 @@ module.exports = {
       },
       password: {
         type: Sequelize.STRING(30),
-        allowNull: false
+        
       },
       avatar: {
         type: Sequelize.STRING(200),

@@ -3,7 +3,7 @@
   "development": {
     "username": "postgres",
     "password": "1289",
-    "database": "eCommerce_API",
+    "database": "ecommerce_db",
     "host": "localhost",
     "dialect": "postgres",
     "logging": false
