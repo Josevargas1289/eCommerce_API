@@ -25,11 +25,6 @@ module.exports = {
       productId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        references: {
-          model: "products",
-          key: "id"
-        },
-        field: 'product_id',
       },
       quantity: {
         type: Sequelize.INTEGER,
